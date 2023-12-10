@@ -15,8 +15,11 @@ namespace NS_Composants {
 		String^ UPDATE();
 		String^ DELETE();
 		String^ INSERT();
+		String^ ALTERTABLE();
+		String^ ENABLEKey();
 		void setId_paiement(int);
 		void setId_commande(int);
+
 		void setDate_Paiement(String^);
 		void setMoyen_Paiement(String^);
 		int getId_paiement();

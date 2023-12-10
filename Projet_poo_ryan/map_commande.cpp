@@ -62,7 +62,7 @@ String^ NS_Composants::map_Commande::UPDATE() {
 
 String^ NS_Composants::map_Commande::DELETE()
 {
-    return "DELETE FROM TB_Commande" + "WHERE(id_commande =" + this->id_commande + ");";
+    return "DELETE FROM TB_Commande" + " WHERE(Id_Commande ='" + this->id_commande + "');";
 }
 
 String^ NS_Composants::map_Commande::INSERT()

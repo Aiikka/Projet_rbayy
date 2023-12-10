@@ -30,6 +30,15 @@ namespace NS_Composants {
 	{
 		return "INSERT INTO TB_Paiment(date_paiment,moyen_paiment,Id_Commande)" + "VALUES('" + this->date_paiement + "','" + this->moyen_paiement + "','" + this->id_commande + "');";
 	}
+	String^ map_Paiment::ALTERTABLE()
+	{
+		return "ALTER TABLE TB_Paiment " +
+			" DROP CONSTRAINT FK__paiment__Id_Comm__778AC167";
+	}
+	String^ map_Paiment::ENABLEKey()
+	{
+		return " ALTER TABLE TB_Paiment ADD CONSTRAINT FK__paiment__Id_Comm__778AC167  FOREIGN KEY(Id_Commande) REFERENCES TB_Commande(Id_Commande); ";
+	}
 	int map_Paiment::getId_paiement()
 	{
 		return id_paiement;

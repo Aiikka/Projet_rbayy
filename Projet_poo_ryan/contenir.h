@@ -18,6 +18,8 @@ namespace NS_Composants {
 		String^ UPDATE();
 		String^ DELETE();
 		String^ INSERT();
+		String^ ALTERTABLE();
+		String^ ENABLEKEY();
 		void setId_article(int);
 		void setId_commande(int);
 		void setQuantite(int);

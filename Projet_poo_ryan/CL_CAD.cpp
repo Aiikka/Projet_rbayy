@@ -26,6 +26,7 @@ namespace NS_Composants
 		this->CNX->Open();
 		this->CMD->ExecuteNonQuery();
 		this->CNX->Close();
+
 	}
 	DataSet^ CL_CAD::getRows(String^ rq_sql, String^ dataTableName)
 	{

@@ -179,7 +179,6 @@ namespace NS_SVC
             this->cad->actionRows(this->contenir->UPDATE());
 
 
-
         }
 
 
@@ -189,13 +188,20 @@ namespace NS_SVC
 
 
 
-    void CL_svc_gestionCOMMANDE::supprimer(int idPersonne)
+    void CL_svc_gestionCOMMANDE::supprimer(int id_cm)
 
     {
 
-        this->commande->setId_Commande(idPersonne);
-
+        
+        this->commande->setId_Commande(id_cm);
+        /*
+        //this->cad->actionRows(this->paiement->ALTERTABLE());
+        this->cad->actionRows(this->contenir->ALTERTABLE());
         this->cad->actionRows(this->commande->DELETE());
+        //this->cad->actionRows(this->paiement->ENABLEKey());
+        this->cad->actionRows(this->contenir->ENABLEKEY());
+        */
+       
 
     }
 

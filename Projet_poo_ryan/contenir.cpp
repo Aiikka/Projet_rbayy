@@ -43,6 +43,17 @@ String^ NS_Composants::Contenir::INSERT()
 	return "INSERT INTO TB_Contenir(Id_Commande , Id_Article,Prix_Article,Quantite_article,Remise_commerciale)" + "VALUES('" + this->id_commande + "','" + this->id_article + "','" + this->prix + "','" + this->quantite_article + "','" + this->remise_commerciale + "'); ";
 }
 
+String^ NS_Composants::Contenir::ALTERTABLE()
+{
+    return  "ALTER TABLE TB_Contenir " +
+   "DROP CONSTRAINT FK__Contenir__Id_Com__4D94879B";
+}
+
+String^ NS_Composants::Contenir::ENABLEKEY()
+{
+	return " ALTER TABLE TB_Contenir ADD CONSTRAINT FK__Contenir__Id_Com__4D94879B  FOREIGN KEY(Id_Commande) REFERENCES TB_Commande(Id_Commande); ";
+}
+
 void NS_Composants::Contenir::setId_article(int artc)
 {
 	this->id_article = artc;

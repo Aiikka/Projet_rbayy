@@ -850,7 +850,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			this->panel5->Controls->Add(this->text_commande_id);
 			this->panel5->Controls->Add(this->label10);
 			this->panel5->Location = System::Drawing::Point(11, 70);
-			this->panel5->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->panel5->Margin = System::Windows::Forms::Padding(4);
 			this->panel5->Name = L"panel5";
 			this->panel5->Size = System::Drawing::Size(1265, 549);
 			this->panel5->TabIndex = 7;
@@ -879,7 +879,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// text_commande_perso
 			// 
 			this->text_commande_perso->Location = System::Drawing::Point(35, 331);
-			this->text_commande_perso->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->text_commande_perso->Margin = System::Windows::Forms::Padding(4);
 			this->text_commande_perso->Name = L"text_commande_perso";
 			this->text_commande_perso->Size = System::Drawing::Size(271, 22);
 			this->text_commande_perso->TabIndex = 21;
@@ -887,7 +887,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// text_commande_client
 			// 
 			this->text_commande_client->Location = System::Drawing::Point(35, 277);
-			this->text_commande_client->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->text_commande_client->Margin = System::Windows::Forms::Padding(4);
 			this->text_commande_client->Name = L"text_commande_client";
 			this->text_commande_client->Size = System::Drawing::Size(271, 22);
 			this->text_commande_client->TabIndex = 20;
@@ -896,7 +896,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// 
 			this->dataGridView7->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView7->Location = System::Drawing::Point(352, 342);
-			this->dataGridView7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->dataGridView7->Margin = System::Windows::Forms::Padding(4);
 			this->dataGridView7->Name = L"dataGridView7";
 			this->dataGridView7->RowHeadersWidth = 51;
 			this->dataGridView7->RowTemplate->Height = 24;
@@ -907,7 +907,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// 
 			this->dataGridView6->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView6->Location = System::Drawing::Point(352, 191);
-			this->dataGridView6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->dataGridView6->Margin = System::Windows::Forms::Padding(4);
 			this->dataGridView6->Name = L"dataGridView6";
 			this->dataGridView6->RowHeadersWidth = 51;
 			this->dataGridView6->RowTemplate->Height = 24;
@@ -918,7 +918,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// 
 			this->dataGridView3->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView3->Location = System::Drawing::Point(352, 39);
-			this->dataGridView3->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->dataGridView3->Margin = System::Windows::Forms::Padding(4);
 			this->dataGridView3->Name = L"dataGridView3";
 			this->dataGridView3->RowHeadersWidth = 51;
 			this->dataGridView3->RowTemplate->Height = 24;
@@ -928,7 +928,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button13
 			// 
 			this->button13->Location = System::Drawing::Point(5, 453);
-			this->button13->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button13->Margin = System::Windows::Forms::Padding(4);
 			this->button13->Name = L"button13";
 			this->button13->Size = System::Drawing::Size(100, 28);
 			this->button13->TabIndex = 16;
@@ -938,7 +938,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button12
 			// 
 			this->button12->Location = System::Drawing::Point(329, 507);
-			this->button12->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button12->Margin = System::Windows::Forms::Padding(4);
 			this->button12->Name = L"button12";
 			this->button12->Size = System::Drawing::Size(100, 28);
 			this->button12->TabIndex = 15;
@@ -948,7 +948,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button11
 			// 
 			this->button11->Location = System::Drawing::Point(113, 453);
-			this->button11->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button11->Margin = System::Windows::Forms::Padding(4);
 			this->button11->Name = L"button11";
 			this->button11->Size = System::Drawing::Size(100, 28);
 			this->button11->TabIndex = 14;
@@ -959,7 +959,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button6
 			// 
 			this->button6->Location = System::Drawing::Point(221, 453);
-			this->button6->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button6->Margin = System::Windows::Forms::Padding(4);
 			this->button6->Name = L"button6";
 			this->button6->Size = System::Drawing::Size(100, 28);
 			this->button6->TabIndex = 13;
@@ -970,7 +970,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button10
 			// 
 			this->button10->Location = System::Drawing::Point(199, 489);
-			this->button10->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button10->Margin = System::Windows::Forms::Padding(4);
 			this->button10->Name = L"button10";
 			this->button10->Size = System::Drawing::Size(123, 62);
 			this->button10->TabIndex = 12;
@@ -981,7 +981,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button9
 			// 
 			this->button9->Location = System::Drawing::Point(187, 389);
-			this->button9->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button9->Margin = System::Windows::Forms::Padding(4);
 			this->button9->Name = L"button9";
 			this->button9->Size = System::Drawing::Size(123, 59);
 			this->button9->TabIndex = 11;
@@ -992,17 +992,18 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// button8
 			// 
 			this->button8->Location = System::Drawing::Point(43, 489);
-			this->button8->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button8->Margin = System::Windows::Forms::Padding(4);
 			this->button8->Name = L"button8";
 			this->button8->Size = System::Drawing::Size(123, 62);
 			this->button8->TabIndex = 10;
 			this->button8->Text = L"Supprimer";
 			this->button8->UseVisualStyleBackColor = true;
+			this->button8->Click += gcnew System::EventHandler(this, &MyForm::button8_Click);
 			// 
 			// button7
 			// 
 			this->button7->Location = System::Drawing::Point(37, 389);
-			this->button7->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->button7->Margin = System::Windows::Forms::Padding(4);
 			this->button7->Name = L"button7";
 			this->button7->Size = System::Drawing::Size(125, 57);
 			this->button7->TabIndex = 9;
@@ -1023,7 +1024,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// text_commande_datel
 			// 
 			this->text_commande_datel->Location = System::Drawing::Point(35, 233);
-			this->text_commande_datel->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->text_commande_datel->Margin = System::Windows::Forms::Padding(4);
 			this->text_commande_datel->Name = L"text_commande_datel";
 			this->text_commande_datel->Size = System::Drawing::Size(271, 22);
 			this->text_commande_datel->TabIndex = 6;
@@ -1031,7 +1032,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// text_commande_datec
 			// 
 			this->text_commande_datec->Location = System::Drawing::Point(35, 178);
-			this->text_commande_datec->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->text_commande_datec->Margin = System::Windows::Forms::Padding(4);
 			this->text_commande_datec->Name = L"text_commande_datec";
 			this->text_commande_datec->Size = System::Drawing::Size(271, 22);
 			this->text_commande_datec->TabIndex = 5;
@@ -1049,7 +1050,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// text_commande_nom
 			// 
 			this->text_commande_nom->Location = System::Drawing::Point(35, 114);
-			this->text_commande_nom->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->text_commande_nom->Margin = System::Windows::Forms::Padding(4);
 			this->text_commande_nom->Name = L"text_commande_nom";
 			this->text_commande_nom->Size = System::Drawing::Size(268, 22);
 			this->text_commande_nom->TabIndex = 3;
@@ -1067,7 +1068,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			// text_commande_id
 			// 
 			this->text_commande_id->Location = System::Drawing::Point(32, 62);
-			this->text_commande_id->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
+			this->text_commande_id->Margin = System::Windows::Forms::Padding(4);
 			this->text_commande_id->Name = L"text_commande_id";
 			this->text_commande_id->Size = System::Drawing::Size(271, 22);
 			this->text_commande_id->TabIndex = 1;
@@ -2290,6 +2291,11 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 		this->gestionCommande->modifier(Convert::ToInt32(this->text_commande_id->Text), text_commande_nom->Text, text_commande_datec->Text, text_commande_datel->Text, Convert::ToInt32(text_commande_client->Text), Convert::ToInt32(text_commande_perso->Text), lesAdressespai, lesAdresses);
 		
 	}
+	else if (this->mode == "DeleteCommande") {
+
+		this->gestionCommande->supprimer(Convert::ToInt32(this->text_commande_id->Text));
+
+	}
 	//else if (mode == "Supprimer_Article") {
 		//this->gestionCommande->supprimer(Convert::ToInt32(this->text_article_id));
 	//}
@@ -2302,6 +2308,9 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 	}
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->mode = "MajCommande";
+}
+private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
+	this->mode = "DeleteCommande";
 }
 };
 
