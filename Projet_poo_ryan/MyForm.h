@@ -2235,7 +2235,7 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 	}
 	else if (this->mode == "MajCommande") {
 
-		int taillen = (this->dataGridView3->RowCount - 1) * 2;
+		int taillen = (this->dataGridView3->RowCount - 1) * 3;
 
 		//array<String^>^ lesAdresses = gcnew array<String^>(taille);
 
@@ -2249,12 +2249,13 @@ private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ 
 		for (i = 0; i < taillen - 1; i++)
 
 		{
-
 			lesAdressespai[i] = Convert::ToString(this->dataGridView3[0, ii]->Value); i++;
-
-			lesAdressespai[i] = Convert::ToString(this->dataGridView3[1, ii]->Value);
+			lesAdressespai[i] = Convert::ToString(this->dataGridView3[1, ii]->Value); i++;
+			lesAdressespai[i] = Convert::ToString(this->dataGridView3[2, ii]->Value); 
 
 			ii++;
+			//lesAdressespai[i] = Convert::ToString(this->dataGridView3[2, ii]->Value);
+
 
 		}
 

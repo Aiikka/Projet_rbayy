@@ -161,17 +161,17 @@ namespace NS_SVC
 
         for (i = 0; i < paiement->Length - 1; i++)
         {
-
+            this->paiement->setId_commande(id);
+            this->paiement->setId_paiement(Convert::ToInt32(paiement[i])); i++;
             this->paiement->setDate_Paiement(paiement[i]); i++;
             this->paiement->setMoyen_Paiement(paiement[i]);
-            this->paiement->setId_commande(id1);
             this->cad->actionRows(this->paiement->UPDATE());
 
         }
         for (i = 0; i < contenir->Length - 1; i++)
         {
 
-            this->contenir->setId_commande(id1);
+            this->contenir->setId_commande(id);
             this->contenir->setId_article(Convert::ToInt32(contenir[i]));i++;
             this->contenir->setQuantite(Convert::ToInt32(contenir[i])); i++;
             this->contenir->setPrix(Convert::ToDouble(contenir[i])); i++;

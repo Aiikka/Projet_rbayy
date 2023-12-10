@@ -53,7 +53,7 @@ namespace NS_Composants {
 
 	void map_Paiment::setId_paiement(int id_paiement)
 	{
-		this->id_commande = id_commande;
+		this->id_paiement = id_paiement;
 	}
 
 	void map_Paiment::setId_commande(int id_commande)
