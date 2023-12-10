@@ -1054,6 +1054,7 @@ private: System::Windows::Forms::TextBox^ text_article_taux;
 			this->text_commande_nom->Name = L"text_commande_nom";
 			this->text_commande_nom->Size = System::Drawing::Size(268, 22);
 			this->text_commande_nom->TabIndex = 3;
+			this->text_commande_nom->TextChanged += gcnew System::EventHandler(this, &MyForm::text_commande_nom_TextChanged);
 			// 
 			// label11
 			// 
@@ -2311,6 +2312,8 @@ private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e
 }
 private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
 	this->mode = "DeleteCommande";
+}
+private: System::Void text_commande_nom_TextChanged(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 

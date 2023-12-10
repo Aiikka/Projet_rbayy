@@ -9,7 +9,6 @@ NS_Composants::map_Commande::map_Commande()
     this->id_adresse = -1;
     this->date_commande = "RIEN";
     this->date_liv = "RIEN";
-
     this->nom_commande = "RIEN";
 }
 

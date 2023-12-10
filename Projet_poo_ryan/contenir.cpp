@@ -30,12 +30,12 @@ String^ NS_Composants::Contenir::SELECTbyId_article()
 String^ NS_Composants::Contenir::UPDATE()
 {
 	return "UPDATE TB_Contenir" + " SET Id_Commande= '" + this->id_commande + "', Id_Article='" + this->id_article + "',Prix_Article = '" + this->prix + "', Quantite_article = '" + this->quantite_article + "', Remise_commerciale ='" + this->remise_commerciale + "' " + 
-		"WHERE(Id_Commande = '" + this->id_commande + "');";
+		"WHERE (Id_Commande = '" + this->id_commande + "' AND Id_Article ='" +this->id_article +"');";
 }
 
 String^ NS_Composants::Contenir::DELETE()
 {
-	return "DELETE FROM TB_Contenir" + "WHERE(id_commande = " + this->id_commande + "AND id_article = " + this->id_article + ");";
+	return "DELETE FROM TB_Contenir " + " WHERE(Id_Commande = '" + this->id_commande + "'); ";
 }
 
 String^ NS_Composants::Contenir::INSERT()

@@ -173,8 +173,8 @@ namespace NS_SVC
 
             this->contenir->setId_commande(id);
             this->contenir->setId_article(Convert::ToInt32(contenir[i]));i++;
+            this->contenir->setPrix(Convert::ToInt32(contenir[i])); i++;
             this->contenir->setQuantite(Convert::ToInt32(contenir[i])); i++;
-            this->contenir->setPrix(Convert::ToDouble(contenir[i])); i++;
             this->contenir->setRemise_commerciale(Convert::ToDouble(contenir[i]));
             this->cad->actionRows(this->contenir->UPDATE());
 
@@ -194,13 +194,16 @@ namespace NS_SVC
 
         
         this->commande->setId_Commande(id_cm);
-        /*
-        //this->cad->actionRows(this->paiement->ALTERTABLE());
+        this->paiement->setId_commande(id_cm);
+        this->contenir->setId_commande(id_cm);
+        this->cad->actionRows(this->paiement->ALTERTABLE());
         this->cad->actionRows(this->contenir->ALTERTABLE());
         this->cad->actionRows(this->commande->DELETE());
-        //this->cad->actionRows(this->paiement->ENABLEKey());
+        this->cad->actionRows(this->paiement->DELETE());
+        this->cad->actionRows(this->contenir->DELETE());
+        this->cad->actionRows(this->paiement->ENABLEKey());
         this->cad->actionRows(this->contenir->ENABLEKEY());
-        */
+        
        
 
     }

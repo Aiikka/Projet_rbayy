@@ -24,7 +24,7 @@ namespace NS_Composants {
 	}
 	String^ map_Paiment::DELETE()
 	{
-		return "DELETE FROM TB_Paiement" + "WHERE(id_paiement =" + this->id_paiement + ");";
+		return "DELETE FROM TB_Paiment " + " WHERE(Id_Commande ='" + this->id_commande + "');";
 	}
 	String^ map_Paiment::INSERT()
 	{
